@@ -1,0 +1,1 @@
+src/entry.o: /home/khj/Desktop/hello_standalone/freedom-metal/src/entry.S

@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ /home/khj/Desktop/hello_standalone/freedom-metal/gloss/crt0.S

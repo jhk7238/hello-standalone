@@ -1,0 +1,132 @@
+src/i2c.o: /home/khj/Desktop/hello_standalone/freedom-metal/src/i2c.c \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/i2c.h \
+ metal/machine.h metal/machine/platform.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/fixed-clock.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/clock.h \
+ /home/khj/Desktop/riscv64/lib/gcc/riscv64-unknown-elf/8.3.0/include/stddef.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/compiler.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/memory.h \
+ /home/khj/Desktop/riscv64/lib/gcc/riscv64-unknown-elf/8.3.0/include/stdint.h \
+ /home/khj/Desktop/riscv64/riscv64-unknown-elf/include/stdint.h \
+ /home/khj/Desktop/riscv64/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/khj/Desktop/riscv64/riscv64-unknown-elf/include/sys/features.h \
+ /home/khj/Desktop/riscv64/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/khj/Desktop/riscv64/riscv64-unknown-elf/include/sys/_intsup.h \
+ /home/khj/Desktop/riscv64/riscv64-unknown-elf/include/sys/_stdint.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/riscv_clint0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/riscv_cpu.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/cpu.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/interrupt.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/riscv_plic0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/pmp.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_gpio0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/gpio.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/led.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_pwm0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/pwm.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_rtc0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/io.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/rtc.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_spi0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/spi.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_test0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/shutdown.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_uart0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/uart.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_wdog0.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/watchdog.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/i2c.h:
+
+metal/machine.h:
+
+metal/machine/platform.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/fixed-clock.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/clock.h:
+
+/home/khj/Desktop/riscv64/lib/gcc/riscv64-unknown-elf/8.3.0/include/stddef.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/compiler.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/memory.h:
+
+/home/khj/Desktop/riscv64/lib/gcc/riscv64-unknown-elf/8.3.0/include/stdint.h:
+
+/home/khj/Desktop/riscv64/riscv64-unknown-elf/include/stdint.h:
+
+/home/khj/Desktop/riscv64/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/home/khj/Desktop/riscv64/riscv64-unknown-elf/include/sys/features.h:
+
+/home/khj/Desktop/riscv64/riscv64-unknown-elf/include/_newlib_version.h:
+
+/home/khj/Desktop/riscv64/riscv64-unknown-elf/include/sys/_intsup.h:
+
+/home/khj/Desktop/riscv64/riscv64-unknown-elf/include/sys/_stdint.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/riscv_clint0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/riscv_cpu.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/cpu.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/interrupt.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/riscv_plic0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/pmp.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_local-external-interrupts0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_gpio0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/gpio.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/led.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_pwm0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/pwm.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_rtc0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/io.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/rtc.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_spi0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/spi.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_test0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/shutdown.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_uart0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/uart.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_wdog0.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/watchdog.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:

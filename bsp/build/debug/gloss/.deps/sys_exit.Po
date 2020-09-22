@@ -1,0 +1,5 @@
+gloss/sys_exit.o: \
+ /home/khj/Desktop/hello_standalone/freedom-metal/gloss/sys_exit.c \
+ /home/khj/Desktop/hello_standalone/freedom-metal/metal/shutdown.h
+
+/home/khj/Desktop/hello_standalone/freedom-metal/metal/shutdown.h:

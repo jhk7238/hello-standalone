@@ -1,0 +1,5 @@
+src/drivers/ucb_htif0.o: \
+ /home/khj/Desktop/hello_standalone/freedom-metal/src/drivers/ucb_htif0.c \
+ metal/machine/platform.h
+
+metal/machine/platform.h:
