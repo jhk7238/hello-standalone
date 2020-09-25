@@ -464,3 +464,6 @@ clean: clean-metal
 metal_install: metal
 	$(MAKE) -C $(METAL_SOURCE_PATH) install
 
+simulate: $(PROGRAM_ELF)
+	scripts/simulate --elf $(PROGRAM_ELF) --qemu qemu-system-riscv32 --qemu-config bsp/qemu.cfg
+	

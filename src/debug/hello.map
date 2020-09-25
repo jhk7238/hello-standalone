@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
-                              /tmp/ccv58deD.o (puts)
+                              /tmp/cc0074U1.o (puts)
 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
                               /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o) (__swbuf_r)
 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
@@ -158,9 +158,9 @@ errno               0x4               /home/khj/Desktop/riscv64/bin/../lib/gcc/r
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /tmp/ccv58deD.o
- .data          0x0000000000000000        0x0 /tmp/ccv58deD.o
- .bss           0x0000000000000000        0x0 /tmp/ccv58deD.o
+ .text          0x0000000000000000        0x0 /tmp/cc0074U1.o
+ .data          0x0000000000000000        0x0 /tmp/cc0074U1.o
+ .bss           0x0000000000000000        0x0 /tmp/cc0074U1.o
  .text          0x0000000000000000        0x0 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
  .data          0x0000000000000000        0x0 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
  .bss           0x0000000000000000        0x0 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
@@ -1576,7 +1576,7 @@ rom              0x0000000020400000 0x000000001fc00000 xrl !aw
 
 Linker script and memory map
 
-LOAD /tmp/ccv58deD.o
+LOAD /tmp/cc0074U1.o
 START GROUP
 LOAD /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a
 LOAD /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32/libgcc.a
@@ -1679,7 +1679,7 @@ END GROUP
 .rodata         0x0000000020400360      0xbe8
  *(.rdata)
  *(.rodata .rodata.*)
- .rodata        0x0000000020400360       0x21 /tmp/ccv58deD.o
+ .rodata        0x0000000020400360       0x21 /tmp/cc0074U1.o
  *fill*         0x0000000020400381        0x3 
  .rodata.__sf_fake_stderr
                 0x0000000020400384       0x20 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
@@ -1743,7 +1743,7 @@ END GROUP
  *(.text.unlikely .text.unlikely.*)
  *(.text.startup .text.startup.*)
  *(.text .text.*)
- .text.main     0x0000000020400f80       0x28 /tmp/ccv58deD.o
+ .text.main     0x0000000020400f80       0x28 /tmp/cc0074U1.o
                 0x0000000020400f80                main
  .text._puts_r  0x0000000020400fa8       0xda /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
                 0x0000000020400fa8                _puts_r
@@ -2446,84 +2446,84 @@ END GROUP
 
 .rela.dyn       0x0000000020406638        0x0
  .rela.text._sbrk_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._write_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._close_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._fstat_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._isatty_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._lseek_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._read_r
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal.init.enter
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal.init.scrub
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.libgloss.start
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.sdata.__brk
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text._sbrk
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.__libc_fini_array
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.__libc_init_array
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.__register_exitproc
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_init
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_fini
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.__metal_driver_cpu_get
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_software_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.__metal_default_sw_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_timer_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.__metal_exception_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc0_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc1_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc2_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc3_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc4_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc5_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc6_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc7_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc8_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc9_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc10_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc11_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc12_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc13_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc14_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_lc15_interrupt_vector_handler
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
  .rela.text.metal_cpu_get
-                0x0000000020406638        0x0 /tmp/ccv58deD.o
- .rela.text     0x0000000020406638        0x0 /tmp/ccv58deD.o
+                0x0000000020406638        0x0 /tmp/cc0074U1.o
+ .rela.text     0x0000000020406638        0x0 /tmp/cc0074U1.o
 
 .data           0x0000000080000000      0x7f0 load address 0x0000000020406638
  *(.data .data.*)
@@ -2672,7 +2672,7 @@ END GROUP
 OUTPUT(hello elf32-littleriscv)
 
 .debug_info     0x0000000000000000    0x29de3
- .debug_info    0x0000000000000000      0x92c /tmp/ccv58deD.o
+ .debug_info    0x0000000000000000      0x92c /tmp/cc0074U1.o
  .debug_info    0x000000000000092c       0x22 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(entry.o)
  .debug_info    0x000000000000094e       0x26 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(scrub.o)
  .debug_info    0x0000000000000974       0x22 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(trap.o)
@@ -2707,7 +2707,7 @@ OUTPUT(hello elf32-littleriscv)
  .debug_info    0x0000000000029d94       0x4f /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_abbrev   0x0000000000000000     0x34ea
- .debug_abbrev  0x0000000000000000      0x17e /tmp/ccv58deD.o
+ .debug_abbrev  0x0000000000000000      0x17e /tmp/cc0074U1.o
  .debug_abbrev  0x000000000000017e       0x12 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(entry.o)
  .debug_abbrev  0x0000000000000190       0x14 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(scrub.o)
  .debug_abbrev  0x00000000000001a4       0x12 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(trap.o)
@@ -2743,7 +2743,7 @@ OUTPUT(hello elf32-littleriscv)
 
 .debug_aranges  0x0000000000000000      0xb80
  .debug_aranges
-                0x0000000000000000       0x20 /tmp/ccv58deD.o
+                0x0000000000000000       0x20 /tmp/cc0074U1.o
  .debug_aranges
                 0x0000000000000020       0x28 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(entry.o)
  .debug_aranges
@@ -2810,7 +2810,7 @@ OUTPUT(hello elf32-littleriscv)
                 0x0000000000000b60       0x20 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_ranges   0x0000000000000000      0x990
- .debug_ranges  0x0000000000000000       0x10 /tmp/ccv58deD.o
+ .debug_ranges  0x0000000000000000       0x10 /tmp/cc0074U1.o
  .debug_ranges  0x0000000000000010       0x20 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(entry.o)
  .debug_ranges  0x0000000000000030       0x20 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(trap.o)
  .debug_ranges  0x0000000000000050       0x10 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_close.o)
@@ -2841,7 +2841,7 @@ OUTPUT(hello elf32-littleriscv)
  .debug_ranges  0x0000000000000980       0x10 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_line     0x0000000000000000     0xa273
- .debug_line    0x0000000000000000       0xf9 /tmp/ccv58deD.o
+ .debug_line    0x0000000000000000       0xf9 /tmp/cc0074U1.o
  .debug_line    0x00000000000000f9      0x13e /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(entry.o)
  .debug_line    0x0000000000000237      0x193 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(scrub.o)
  .debug_line    0x00000000000003ca       0xdc /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(trap.o)
@@ -2876,7 +2876,7 @@ OUTPUT(hello elf32-littleriscv)
  .debug_line    0x000000000000a1f9       0x7a /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_str      0x0000000000000000     0x4c97
- .debug_str     0x0000000000000000      0x4b0 /tmp/ccv58deD.o
+ .debug_str     0x0000000000000000      0x4b0 /tmp/cc0074U1.o
                                         0x553 (size before relaxing)
  .debug_str     0x00000000000004b0       0x7c /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(entry.o)
  .debug_str     0x000000000000052c       0x3d /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal.a(scrub.o)
@@ -2943,7 +2943,7 @@ OUTPUT(hello elf32-littleriscv)
                                          0xec (size before relaxing)
 
 .comment        0x0000000000000000       0x28
- .comment       0x0000000000000000       0x28 /tmp/ccv58deD.o
+ .comment       0x0000000000000000       0x28 /tmp/cc0074U1.o
                                          0x29 (size before relaxing)
  .comment       0x0000000000000028       0x29 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
  .comment       0x0000000000000028       0x29 /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
@@ -3003,7 +3003,7 @@ OUTPUT(hello elf32-littleriscv)
 .riscv.attributes
                 0x0000000000000000       0x2b
  .riscv.attributes
-                0x0000000000000000       0x2b /tmp/ccv58deD.o
+                0x0000000000000000       0x2b /tmp/cc0074U1.o
  .riscv.attributes
                 0x000000000000002b       0x2b /home/khj/Desktop/riscv64/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
  .riscv.attributes
@@ -3126,7 +3126,7 @@ OUTPUT(hello elf32-littleriscv)
                 0x0000000000000a08       0x2b /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_exit.o)
 
 .debug_frame    0x0000000000000000     0x2dfc
- .debug_frame   0x0000000000000000       0x38 /tmp/ccv58deD.o
+ .debug_frame   0x0000000000000000       0x38 /tmp/cc0074U1.o
  .debug_frame   0x0000000000000038       0x38 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_close.o)
  .debug_frame   0x0000000000000070       0x38 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_fstat.o)
  .debug_frame   0x00000000000000a8       0x34 /home/khj/Desktop/hello_standalone/bsp/install/lib/debug//libmetal-gloss.a(sys_isatty.o)
